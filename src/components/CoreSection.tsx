@@ -3,7 +3,7 @@ import coreImage from "../assets/core-image.jpg"; // Import the core section ima
 
 const Container = styled.div`
   display: flex;
-  background-color: #111;
+  background-color: #1c1c1c;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   align-items: center;
@@ -25,9 +25,10 @@ const Container = styled.div`
   h2 {
     font-size: 2rem;
     margin-bottom: 40px; /* Add margin below the title */
+    color: #59ff00;
   }
   p {
-    margin-bottom: 40px; /* Add margin below each paragraph */
+    margin-bottom: 0px; /* Add margin below each paragraph */
   }
 `;
 

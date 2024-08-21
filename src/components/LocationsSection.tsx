@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  background-color: #111;
+  background-color: #1c1c1c;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -9,7 +9,7 @@ const Container = styled.div`
 `;
 
 const SmallTitle = styled.h3`
-  color: orange;
+  color: #59ff00;
   font-size: 1.5rem;
   margin-bottom: 10px;
 `;

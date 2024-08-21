@@ -6,10 +6,11 @@ import "aos/dist/aos.css";
 const Container = styled.div`
   text-align: center;
   padding: 40px; /* Add inner padding */
+  margin-top: 20px;
 `;
 
 const SmallTitle = styled.h3`
-  color: orange;
+  color: #59ff00;
   font-size: 1.5rem;
   margin-bottom: 10px;
 `;

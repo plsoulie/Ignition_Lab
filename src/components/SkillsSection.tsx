@@ -7,16 +7,16 @@ const SectionWrapper = styled.div`
 
 const SectionContainer = styled.div`
   padding: 60px 100px 60px 100px;
-  background-color: #111; /* Match the background color of other sections */
+  background-color: #1c1c1c; /* Match the background color of other sections */
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
 `;
 
 const Title = styled.h2`
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  color: #fff; /* White color for text */
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #59ff00; /* White color for text */
 `;
 
 const SkillsGrid = styled.div`
@@ -26,7 +26,7 @@ const SkillsGrid = styled.div`
 `;
 
 const SkillItem = styled.div`
-  background-color: #222; /* Skill item background */
+  background-color: #2e2e2e; /* Skill item background */
   color: #fff;
   padding: 20px;
   border-radius: 10px;
@@ -35,7 +35,7 @@ const SkillItem = styled.div`
   transition: background-color 0.3s ease, transform 0.3s ease;
 
   &:hover {
-    background-color: orange; /* Highlighted background color on hover */
+    background-color: #59ff00; /* Highlighted background color on hover */
     transform: scale(1.05); /* Slightly enlarge the skill on hover */
   }
 `;
@@ -46,7 +46,7 @@ export default function SkillsSection() {
   return (
     <SectionWrapper>
       <SectionContainer>
-        <Title>Our Skills</Title>
+        <Title>Services</Title>
         <SkillsGrid>
           {skills.map((skill, index) => (
             <SkillItem key={index}>{skill}</SkillItem>
