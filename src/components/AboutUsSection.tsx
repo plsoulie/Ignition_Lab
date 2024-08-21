@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Container = styled.div`
   text-align: center;
@@ -25,14 +23,6 @@ const Text = styled.p`
 `;
 
 export default function AboutUsSection() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Duration of the animation in milliseconds
-      easing: "ease-in-out", // Easing function
-      once: true, // Whether animation should happen only once or every time you scroll
-    });
-  }, []);
-
   return (
     <div className="padding-container section-padding" data-aos="fade-up">
       <Container>

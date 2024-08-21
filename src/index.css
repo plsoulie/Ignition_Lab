@@ -72,6 +72,23 @@ button:hover {
   }
 }
 
+/* Styles for mobile phones (screen width 480px and below) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr; /* 1 column */
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
