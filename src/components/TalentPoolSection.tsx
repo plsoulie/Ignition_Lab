@@ -22,13 +22,63 @@ const Container = styled.div`
     padding-right: 60px; /* Add padding to the right side of the text */
     border-radius: 0 20px 20px 0; /* Rounded corners on the right side */
   }
+
   h2 {
     font-size: 2rem;
     margin-bottom: 40px; /* Add margin below the title */
     color: #59ff00;
   }
+
   p {
     margin-bottom: 40px; /* Add margin below each paragraph */
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    img {
+      max-width: 100%; /* Image takes full width on smaller screens */
+      border-radius: 20px 20px 0 0; /* Rounded corners on the top */
+      height: auto; /* Allow the image to scale with content */
+    }
+
+    div {
+      padding: 40px 20px; /* Adjust padding for smaller screens */
+      border-radius: 0 0 20px 20px; /* Rounded corners on the bottom */
+    }
+
+    h2 {
+      font-size: 1.8rem; /* Slightly smaller title */
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 30px;
+    }
+
+    button {
+      font-size: 1rem; /* Adjust button size */
+    }
+  }
+
+  @media (max-width: 480px) {
+    h2 {
+      font-size: 1.5rem; /* Even smaller title for very small screens */
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+
+    div {
+      padding: 30px 15px; /* Less padding on very small screens */
+    }
+
+    button {
+      font-size: 0.9rem; /* Smaller button size */
+    }
   }
 `;
 
